@@ -15,7 +15,16 @@ function startTime() {
   // add a zero in front of numbers<10
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('time').innerHTML = h + ':' + m;
+
+  let ampm = '';
+  if (h < 12) {
+    ampm = ' am';
+  } else if (h > 12) {
+    h = h - 12;
+    ampm = ' pm';
+  }
+
+  document.getElementById('time').innerHTML = h + ':' + m + ampm;
   t = setTimeout(function () {
     startTime();
   }, 500);
