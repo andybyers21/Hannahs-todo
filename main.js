@@ -39,3 +39,9 @@ $checkboxes.on('change', function () {
 $.each(checkboxValues, function (key, value) {
   $('#' + key).prop('checked', value);
 });
+
+// CLEAN CHECKBOXES
+
+$('#btn').click(function () {
+  $("input[type='checkbox']").attr('checked', false);
+});
