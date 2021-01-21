@@ -1,5 +1,5 @@
 body {
-  background-image: url(yjw.jpg);
+  background-image: url(WhatsApp\ Image\ 2021-01-21\ at\ 19.37.14.jpeg);
 }
 
 h1,
@@ -7,7 +7,9 @@ h2,
 h3 {
   text-align: center;
   color: #ffad2f;
-  background-color: #fff;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  /* background-color: #fff; */
 }
 
 h1 {
@@ -22,18 +24,26 @@ h3 {
   font-size: 3em;
 }
 
+.mam {
+  color: #1077f5;
+}
+
 #time {
   font-size: 0.6em;
   text-align: center;
-  color: #a913bd;
+  color: greenyellow;
 }
 
 label {
-  color: #ff2f9a;
+  color: #0ec460;
   font-size: 2.5em;
   font-weight: bold;
   margin-left: 25%;
   margin-top: 22px;
+}
+
+.checkbox-container {
+  margin-bottom: 22px;
 }
 
 input[type='checkbox'] {
