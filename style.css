@@ -1,0 +1,29 @@
+body {
+  background-image: url(yjw.jpg);
+}
+
+h1,
+h2,
+label {
+  text-align: center;
+  color: #de7716;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 5em;
+}
+
+label {
+  font-size: 4em;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 22px;
+}
+
+input[type='checkbox'] {
+  transform: scale(4);
+}
