@@ -4,10 +4,10 @@ body {
 
 h1,
 h2,
-h3,
-label {
+h3 {
   text-align: center;
-  color: #de7716;
+  color: #ffad2f;
+  background-color: #fff;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h3 {
 }
 
 label {
+  color: #ff2f9a;
   font-size: 3em;
   font-weight: bold;
   margin-left: 25%;
