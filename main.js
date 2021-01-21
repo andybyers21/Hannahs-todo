@@ -31,6 +31,12 @@ function startTime() {
 }
 startTime();
 
+// CLEAN CHECKBOXES
+
+$('#btn').click(function () {
+  $("input[type='checkbox']").attr('checked', false);
+});
+
 // PERSISTANT CHECKBOXES
 
 let checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {},
@@ -47,10 +53,4 @@ $checkboxes.on('change', function () {
 // On page load
 $.each(checkboxValues, function (key, value) {
   $('#' + key).prop('checked', value);
-});
-
-// CLEAN CHECKBOXES
-
-$('#btn').click(function () {
-  $("input[type='checkbox']").attr('checked', false);
 });
