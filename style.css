@@ -4,26 +4,31 @@ body {
 
 h1,
 h2,
+h3,
 label {
   text-align: center;
   color: #de7716;
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 5.5em;
 }
 
 h2 {
-  font-size: 5em;
+  font-size: 4.5em;
+}
+
+h3 {
+  font-size: 3.5em;
 }
 
 label {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   margin-left: 25%;
   margin-top: 22px;
 }
 
 input[type='checkbox'] {
-  transform: scale(4);
+  transform: scale(3);
 }
